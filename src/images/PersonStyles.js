@@ -20,16 +20,4 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: "13px",
     },
   },
-  designation: {
-    transform: "rotate(90deg)",
-    fontFamily: "PT Serif",
-    marginLeft: "13vw",
-    fontSize: "12px",
-    marginBottom: "-6.2vw",
-    [theme.breakpoints.down("xs")]: {
-        fontSize: "10px",
-        marginLeft: '16.8vw',
-        marginBottom: "-17vw",
-      },
-  },
 }));

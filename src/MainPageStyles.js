@@ -43,7 +43,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   personrow: {
-    marginTop: "28vh",
+    marginTop: "14vh",
     marginBottom: "10vw",
     [theme.breakpoints.down("xs")]: {
       marginTop: "1vw",
@@ -60,5 +60,16 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       marginTop:'12vw'
     },
-  }
+  },
+  designation: {
+    fontFamily: "PT Serif",
+    fontSize: "12px",
+    color: '#000',
+    marginTop: '11.5vh',
+    transform: "rotate(90deg)",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "10px",
+      marginTop: '6.8vh'
+    },
+  },
 }));

@@ -42,24 +42,43 @@ const MainPage = () => {
           lg={12}
           md={12}
           justify="center"
-          style={{ marginTop: "15vh" }}
+          style={{ marginTop: "5.5vh" }}
         >
           <Grid item lg={3} md={3} xs={6}>
-            <Person
-              name="Bill Mahoney"
-              image={person1}
-              designation="PRPDUCT OWNER"
-            />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Bill Mahoney" image={person1} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  PRODUCT OWNER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
-          <Grid item lg={3} md={3} style={{ marginTop: "8vh" }} xs={6}>
-            <Person
-              name="Saba Cabrera"
-              image={person2}
-              designation="ART DIRECTOR"
-            />
+          <Grid item lg={3} md={3} xs={6} style={{ marginTop: "8vh" }}>
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Saba Cabrera" image={person2} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  ART DIRECTOR
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid item lg={3} md={3} xs={6} className={classes.mobview}>
-            <Person name="Shae Le" image={person3} designation="TECH LEAD" />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Shae Le" image={person3} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  TECH LEAD
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid
             item
@@ -69,28 +88,54 @@ const MainPage = () => {
             style={{ marginTop: "16vh" }}
             className={classes.mob}
           >
-            <Person
-              name="Skylah Lu"
-              image={person4}
-              designation="UX DESIGNER"
-            />
-          </Grid>
-          <Grid item lg={3} md={3} xs={6} className={classes.mob} style={{ marginTop: "6vh" }} >
-            <Person
-              name="Griff Richards"
-              image={person5}
-              designation="DEVELOPER"
-            />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Skylah Lu" image={person4} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  UX DESIGNER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid
             item
             lg={3}
             md={3}
             xs={6}
-            style={{ marginTop: "16vh", marginBottom: '10vh' }}
+            style={{ marginTop: "6vh" }}
             className={classes.mob}
           >
-            <Person name="Stan John" image={person6} designation="DEVELOPER" />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Griff Richards" image={person5} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  DEVELOPER
+                </Typography>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid
+            item
+            lg={3}
+            md={3}
+            xs={6}
+            style={{ marginTop: "16vh", marginBottom: "10vh" }}
+            className={classes.mob}
+          >
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Stan John" image={person6} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  DEVELOPER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
         <Grid
@@ -101,21 +146,40 @@ const MainPage = () => {
           className={classes.personrow}
         >
           <Grid item lg={3} md={3} xs={6}>
-            <Person
-              name="Skylah Lu"
-              image={person4}
-              designation="UX DESIGNER"
-            />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Skylah Lu" image={person4} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  UX DESIGNER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid item lg={3} md={3} xs={6} style={{ marginTop: "8vh" }}>
-            <Person
-              name="Griff Richards"
-              image={person5}
-              designation="DEVELOPER"
-            />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Griff Richards" image={person5} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  DEVELOPER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
           <Grid item lg={3} md={3} xs={6}>
-            <Person name="Stan John" image={person6} designation="DEVELOPER" />
+            <Grid container lg={12} md={12} justify="center">
+              <Grid item lg={6} md={6} xs={5}>
+                <Person name="Stan John" image={person6} />
+              </Grid>
+              <Grid item lg={6} md={6} xs={7}>
+                <Typography className={classes.designation}>
+                  DEVELOPER
+                </Typography>
+              </Grid>
+            </Grid>
           </Grid>
         </Grid>
       </Container>

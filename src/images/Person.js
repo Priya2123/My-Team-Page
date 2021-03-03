@@ -6,7 +6,6 @@ const Person = ({ name, image, designation }) => {
   const classes = useStyles();
   return (
     <>
-      <Typography className={classes.designation}>{designation}</Typography>
       <Paper className={classes.paper}>
         <img
           src={image}

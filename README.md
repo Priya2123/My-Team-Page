@@ -59,3 +59,7 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [@Priya-Aggarwal](https://github.com/Priya2123)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

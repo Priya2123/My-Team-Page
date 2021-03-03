@@ -1,4 +1,4 @@
-Link : https://devchallenge-priya.netlify.app/
+## Link : https://devchallenge-priya.netlify.app/
 <!-- Please update value in the {}  -->
 
 <h1 align="center">My Team Page</h1>
@@ -37,6 +37,9 @@ Link : https://devchallenge-priya.netlify.app/
 ## Overview
 
 <img src="src/assets/final1.PNG">
+<img src="src/assets/final2.PNG">
+<img src="src/assets/final3.PNG">
+<img src="src/assets/final4.PNG">
 
 I've completed the 'My Team Page Challenge'. This one was pretty fun. 
 

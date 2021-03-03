@@ -1,6 +1,5 @@
-<div align="center>
+<div align="center">
             ## Link : https://devchallenge-priya.netlify.app/
-            
  </div>            
 <!-- Please update value in the {}  -->
 

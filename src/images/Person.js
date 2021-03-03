@@ -7,10 +7,10 @@ const Person = ({ name, image, designation }) => {
   return (
     <>
       <Typography className={classes.designation}>{designation}</Typography>
-      <Paper style={{ width: "210px", height: "290px" }}>
+      <Paper className={classes.paper}>
         <img
           src={image}
-          style={{ width: "210px", height: "290px" }}
+          className={classes.paper}
           alt="Person 1"
         />
       </Paper>

@@ -1,6 +1,12 @@
 import { makeStyles } from "@material-ui/core/styles";
 
 export const useStyles = makeStyles((theme) => ({
+  firstrow: {
+    marginTop: "110px",
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "15vw",
+    },
+  },
   textheading: {
     textAlign: "center",
     fontSize: "36px",
@@ -9,8 +15,8 @@ export const useStyles = makeStyles((theme) => ({
     fontFamily: "PT Serif",
     letterSpacing: "-0.045em",
     [theme.breakpoints.down("xs")]: {
-      marginLeft:'5vw',
-      marginTop: '5vw'
+      marginLeft: "5vw",
+      fontStyle: "bold",
     },
   },
   headingtwo: {
@@ -19,7 +25,8 @@ export const useStyles = makeStyles((theme) => ({
     fontStyle: "normal",
     fontFamily: "Poppins",
     [theme.breakpoints.down("xs")]: {
-      marginLeft:'5vw'
+      marginLeft: "5vw",
+      marginTop: "8vw",
     },
   },
   headingthree: {
@@ -29,16 +36,29 @@ export const useStyles = makeStyles((theme) => ({
     fontStyle: "normal",
     fontFamily: "Poppins",
     [theme.breakpoints.down("xs")]: {
-      marginLeft:'5vw',
-      fontSize: "14px",
-      width: '75vw'
+      marginLeft: "5vw",
+      fontSize: "13px",
+      width: "76vw",
+      marginTop: "1.5vw",
     },
   },
-  designation: {
-    transform: 'rotate(90deg)',
-    fontFamily: 'PT Serif',
-    float: 'left',
-    marginLeft: '-1vw',
-    marginTop: '2.4vw'
-}
+  personrow: {
+    marginTop: "28vh",
+    marginBottom: "10vw",
+    [theme.breakpoints.down("xs")]: {
+      marginTop: "1vw",
+      display: "none",
+    },
+  },
+  mob: {
+    display: "none",
+    [theme.breakpoints.down("xs")]: {
+      display: "initial",
+    },
+  },
+  mobview: {
+    [theme.breakpoints.down("xs")]: {
+      marginTop:'12vw'
+    },
+  }
 }));

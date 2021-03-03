@@ -183,6 +183,14 @@ const MainPage = () => {
           </Grid>
         </Grid>
       </Container>
+      <Grid container lg={12} md={12}  className={classes.footerrow}>
+        <Grid item lg={12} md={12} >
+          <Typography className={classes.footer} variant="caption">
+            created by <a className={classes.link} href="https://github.com/Priya2123">Priya Aggarwal</a>{" "}
+            - <a className={classes.link} href="https://devchallenges.io/">devchallenges.io</a>
+          </Typography>
+        </Grid>
+      </Grid>
     </>
   );
 };

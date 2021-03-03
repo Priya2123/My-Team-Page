@@ -58,18 +58,40 @@ export const useStyles = makeStyles((theme) => ({
   },
   mobview: {
     [theme.breakpoints.down("xs")]: {
-      marginTop:'12vw'
+      marginTop: "12vw",
     },
   },
   designation: {
     fontFamily: "PT Serif",
     fontSize: "12px",
-    color: '#000',
-    marginTop: '11.5vh',
+    color: "#000",
+    marginTop: "11.5vh",
     transform: "rotate(90deg)",
     [theme.breakpoints.down("xs")]: {
       fontSize: "10px",
-      marginTop: '6.8vh'
+      marginTop: "6.8vh",
     },
+  },
+  footerrow: {
+    backgroundColor: "#000",
+    color: "#fff",
+    padding: "1rem",
+    textAlign: "center",
+    [theme.breakpoints.down("xs")]: {
+     padding: '1rem 0',
+    },
+  },
+  footer: {
+    fontFamily: "Montserrat",
+    fontWeight: "500",
+    fontSize: "14px",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "11px",
+      marginLeft: '1.2rem'
+    },
+  },
+  link: {
+    color: "grey",
+    textDecoration: "none",
   },
 }));

@@ -16,7 +16,7 @@ export const useStyles = makeStyles((theme) => ({
     fontFamily: "Poppins",
   },
   headingthree: {
-    width: "439px",
+    width: "22rem",
     fontSize: "18px",
     fontWeight: "normal",
     fontStyle: "normal",

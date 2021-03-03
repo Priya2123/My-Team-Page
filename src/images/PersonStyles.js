@@ -10,6 +10,10 @@ export const useStyles = makeStyles((theme) => ({
         width: '210px'
     },
     designation: {
-        transform: 'rotate(90deg)'
+        transform: 'rotate(90deg)',
+        fontFamily: 'PT Serif',
+        marginLeft: '13vw',
+        fontSize: '12px',
+        marginBottom: '-6.2vw',
     }
 }))

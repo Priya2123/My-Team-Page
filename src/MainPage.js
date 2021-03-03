@@ -2,6 +2,12 @@ import React from "react";
 import { Grid, Typography, Container } from "@material-ui/core";
 import { useStyles } from "./MainPageStyles.js";
 import Person from "./images/Person";
+import person1 from "./assets/1.png";
+import person2 from "./assets/2.png";
+import person3 from "./assets/3.png";
+import person4 from "./assets/4.png";
+import person5 from "./assets/5.png";
+import person6 from "./assets/6.png";
 
 const MainPage = () => {
   const classes = useStyles();
@@ -30,29 +36,55 @@ const MainPage = () => {
           </Grid>
         </Grid>
       </Grid>
-      {/* <Container fixed>
-        <Grid container lg={12} md={12} justify="center">
-          <Grid item lg={4} md={4}>
-            <Person />
-          </Grid>
-            <Grid item lg={4} md={4} style={{marginLeft: '-8vw', marginTop: '8vh'}}>
-            <Person  />
-          </Grid>
-          <Grid item lg={4} md={4} style={{marginLeft: '-8vw'}}>
-            <Person />
-          </Grid>
-        </Grid>
-      </Container> */}
       <Container fixed>
-        <Grid container lg={12} md={12} justify="center" style={{marginTop: '8vh'}}>
-          <Grid item lg={3} md={3}> 
-            <Person />
+        <Grid
+          container
+          lg={12}
+          md={12}
+          justify="center"
+          style={{ marginTop: "15vh" }}
+        >
+          <Grid item lg={3} md={3}>
+            <Person
+              name="Bill Mahoney"
+              image={person1}
+              designation="PRPDUCT OWNER"
+            />
           </Grid>
-          <Grid item lg={3} md={3} style={{marginTop: '8vh'}}>
-            <Person  />
+          <Grid item lg={3} md={3} style={{ marginTop: "8vh" }}>
+            <Person
+              name="Saba Cabrera"
+              image={person2}
+              designation="ART DIRECTOR"
+            />
           </Grid>
           <Grid item lg={3} md={3}>
-            <Person/>
+            <Person name="Shae Le" image={person3} designation="TECH LEAD" />
+          </Grid>
+        </Grid>
+        <Grid
+          container
+          lg={12}
+          md={12}
+          justify="center"
+          style={{ marginTop: "28vh", marginBottom: "10vw" }}
+        >
+          <Grid item lg={3} md={3}>
+            <Person
+              name="Skylah Lu"
+              image={person4}
+              designation="UX DESIGNER"
+            />
+          </Grid>
+          <Grid item lg={3} md={3} style={{ marginTop: "8vh" }}>
+            <Person
+              name="Griff Richards"
+              image={person5}
+              designation="DEVELOPER"
+            />
+          </Grid>
+          <Grid item lg={3} md={3}>
+            <Person name="Stan John" image={person6} designation="DEVELOPER" />
           </Grid>
         </Grid>
       </Container>

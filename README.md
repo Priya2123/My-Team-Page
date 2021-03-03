@@ -36,7 +36,7 @@ Link : https://devchallenge-priya.netlify.app/
 
 ## Overview
 
-<img src="images/404ss.png">
+<img src="src/assets/final1.PNG">
 
 I've completed the 'My Team Page Challenge'. This one was pretty fun. 
 

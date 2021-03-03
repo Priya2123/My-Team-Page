@@ -31,7 +31,6 @@ Link : https://devchallenge-priya.netlify.app/
   - [Built With](#built-with)
 - [Features](#features)
 - [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
 
 <!-- OVERVIEW -->
 
@@ -39,32 +38,24 @@ Link : https://devchallenge-priya.netlify.app/
 
 <img src="images/404ss.png">
 
-I built this project to revise and practice my HTML/CSS skills. I have used CSS flexbox in the project. It is a very minimalistic website for a 404 not foound page.
+I've completed the 'My Team Page Challenge'. This one was pretty fun. 
 
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- HTML
+- Reactjs
 - CSS
+- Material ui
 
 ## Features
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
+This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
 
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
-- [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [5 Free Hosting Platform](https://blogs.devchallenges.io/posts/tJ26U8MhZTPgBSRSwpqr)
-- [Marked - a markdown parser](https://github.com/chjj/marked)
 
 ## Contact
 
-- GitHub [@Saurav-Shrivastav](https://github.com/Saurav-Shrivastav)
-- Twitter [@SauravS23839718](https://twitter.com/SauravS23839718)
+- GitHub [@Priya-Aggarwal](https://github.com/Priya2123)

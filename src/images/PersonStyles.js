@@ -8,6 +8,10 @@ export const useStyles = makeStyles((theme) => ({
       width: "104px",
       height: "175px",
     },
+    // [theme.breakpoints.between("sm", "md")]: {
+    //   width: "160px",
+    //   height: "260px",
+    // },
   },
   name: {
     fontFamily: "Poppins",

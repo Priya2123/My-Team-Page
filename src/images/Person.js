@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, Paper } from "@material-ui/core";
 import { useStyles } from "./PersonStyles.js";
 
-const Person = ({ name, image, designation }) => {
+const Person = ({ name, image }) => {
   const classes = useStyles();
   return (
     <>

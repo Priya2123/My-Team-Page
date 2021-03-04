@@ -102,6 +102,7 @@ export const useStyles = makeStyles((theme) => ({
     textAlign: "center",
     [theme.breakpoints.down("xs")]: {
      padding: '1rem 0',
+     textAlign:'center'
     },
   },
   footer: {
@@ -109,8 +110,7 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: "500",
     fontSize: "14px",
     [theme.breakpoints.down("xs")]: {
-      fontSize: "11px",
-      // marginLeft: '1.2rem'
+      fontSize: "10px",
     },
   },
   link: {

@@ -18,6 +18,10 @@ export const useStyles = makeStyles((theme) => ({
       marginLeft: "5vw",
       fontStyle: "bold",
     },
+    [theme.breakpoints.only("sm")]: {
+      marginLeft: "5vw",
+      fontStyle: "bold",
+    },
   },
   headingtwo: {
     fontSize: "18px",
@@ -27,6 +31,10 @@ export const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.down("xs")]: {
       marginLeft: "5vw",
       marginTop: "8vw",
+    },
+    [theme.breakpoints.only("sm")]: {
+      marginLeft: "5vw",
+      marginTop: "6vw",
     },
   },
   headingthree: {
@@ -41,6 +49,12 @@ export const useStyles = makeStyles((theme) => ({
       width: "76vw",
       marginTop: "1.5vw",
     },
+    [theme.breakpoints.only("sm")]: {
+      marginLeft: "5vw",
+      fontSize: "17px",
+      width: "75vw",
+      marginTop: "1.5vw",
+    },
   },
   personrow: {
     marginTop: "14vh",
@@ -49,10 +63,16 @@ export const useStyles = makeStyles((theme) => ({
       marginTop: "1vw",
       display: "none",
     },
+    [theme.breakpoints.only("sm")]: {
+      display: "none",
+    },
   },
   mob: {
     display: "none",
     [theme.breakpoints.down("xs")]: {
+      display: "initial",
+    },
+    [theme.breakpoints.only("sm")]: {
       display: "initial",
     },
   },
@@ -71,6 +91,9 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: "10px",
       marginTop: "6.8vh",
     },
+    [theme.breakpoints.only("sm")]: {
+      marginTop: '3.3rem'
+    },
   },
   footerrow: {
     backgroundColor: "#000",
@@ -87,7 +110,7 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: "14px",
     [theme.breakpoints.down("xs")]: {
       fontSize: "11px",
-      marginLeft: '1.2rem'
+      // marginLeft: '1.2rem'
     },
   },
   link: {

@@ -23,7 +23,7 @@ const MainPage = () => {
             </Grid>
           </Grid>
         </Grid>
-        <Grid item lg={6} md={6}>
+        <Grid item lg={6} md={6} >
           <Grid container lg={12} md={12}>
             <Grid item lg={12} md={12}>
               <Typography className={classes.headingtwo}>WHO WE ARE</Typography>
@@ -44,36 +44,36 @@ const MainPage = () => {
           justify="center"
           style={{ marginTop: "5.5vh" }}
         >
-          <Grid item lg={3} md={3} xs={6}>
+          <Grid item lg={3} md={3} xs={6} sm={6}>
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Bill Mahoney" image={person1} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   PRODUCT OWNER
                 </Typography>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item lg={3} md={3} xs={6} style={{ marginTop: "8vh" }}>
+          <Grid item lg={3} md={3} xs={6} sm={6} style={{ marginTop: "8vh" }}>
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Saba Cabrera" image={person2} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   ART DIRECTOR
                 </Typography>
               </Grid>
             </Grid>
           </Grid>
-          <Grid item lg={3} md={3} xs={6} className={classes.mobview}>
+          <Grid item lg={3} md={3} xs={6} sm={6} className={classes.mobview}>
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Shae Le" image={person3} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   TECH LEAD
                 </Typography>
@@ -85,14 +85,15 @@ const MainPage = () => {
             lg={3}
             md={3}
             xs={6}
+            sm={6}
             style={{ marginTop: "16vh" }}
             className={classes.mob}
           >
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Skylah Lu" image={person4} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   UX DESIGNER
                 </Typography>
@@ -104,14 +105,15 @@ const MainPage = () => {
             lg={3}
             md={3}
             xs={6}
+            sm={6}
             style={{ marginTop: "6vh" }}
             className={classes.mob}
           >
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Griff Richards" image={person5} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   DEVELOPER
                 </Typography>
@@ -123,14 +125,15 @@ const MainPage = () => {
             lg={3}
             md={3}
             xs={6}
+            sm={6}
             style={{ marginTop: "16vh", marginBottom: "10vh" }}
             className={classes.mob}
           >
             <Grid container lg={12} md={12} justify="center">
-              <Grid item lg={6} md={6} xs={5}>
+              <Grid item lg={6} md={6} xs={5} sm={7}>
                 <Person name="Stan John" image={person6} />
               </Grid>
-              <Grid item lg={6} md={6} xs={7}>
+              <Grid item lg={6} md={6} xs={7} sm={5}>
                 <Typography className={classes.designation}>
                   DEVELOPER
                 </Typography>
@@ -183,8 +186,8 @@ const MainPage = () => {
           </Grid>
         </Grid>
       </Container>
-      <Grid container lg={12} md={12}  className={classes.footerrow}>
-        <Grid item lg={12} md={12} >
+      <Grid container lg={12} md={12} sm={12} xs={12} className={classes.footerrow}>
+        <Grid item lg={12} md={12} sm={12} xs={12}>
           <Typography className={classes.footer} variant="caption">
             created by <a className={classes.link} href="https://github.com/Priya2123">Priya Aggarwal</a>{" "}
             - <a className={classes.link} href="https://devchallenges.io/">devchallenges.io</a>
